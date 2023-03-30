@@ -1,0 +1,18 @@
+                                      SQLInjection_BWAPP_CAPTCHA
+
+  * Go choose SQL Injection (CAPTCHA).
+  
+  **Now let's try to press ' here '  and you can nothing did 
+
+
+  * Now let's try put the captcha to and press 'proceed' . 
+
+  *now you can see the search text input now Let's try to put simple payload 
+                     'or 1=1# 
+
+
+  *As you can see our payload injected , so let's put 
+
+ ' union all select 1,table_schema,table_name,4,5,6,7 from information_schema.tables where 1=0 or 1=1# 
+
+ *you can go and try other payloads .

