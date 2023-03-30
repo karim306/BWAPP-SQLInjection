@@ -1,0 +1,13 @@
+        SQL INJECTION POST/SELECT 
+
+      *Go open your burpsuite and make the intercept on . 
+
+      *Then go to the page and press Go . 
+
+      *Go to the burpsuite then remove 1 .
+
+      * let's try payload ====> 0 union all select 1,table_schema,table_name,4,5,6,7 from information_schema.tables where 1=0 or 1=1#
+         , then forward the request . 
+      
+
+      *Go to the page and see the results . 
